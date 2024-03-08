@@ -2,16 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workout</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="planner.css">
+    <link rel="stylesheet" href="workout.css">
     <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
-    
-    <title>Planner</title>
+    <script src="workout.js" type="module"></script>
 </head>
 <body>
     <nav class="navbar">
@@ -40,25 +39,8 @@
             </ul>
         </div>
     </nav>
-    
     <div class="container">
-        <div class="todo-app">
-            <h2>To-Do list <img src= "images/icon.png"></h2>
-            <div class="row">
-                <input type="text" id="input-box" placeholder="Add your text">
-                <button onclick="addTask()">Add</button>
-            </div>
-            <ul id="list-container">
-                <!-- <li class="checked">Task 1</li>
-                <li>Task 2</li>
-                <li>Task 3</li> -->
-            </ul>
-        </div>
+        <div id="app"></div>
     </div>
-
-    
-
-
-<script src="planner.js"></script>
 </body>
 </html>
